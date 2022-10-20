@@ -1,0 +1,25 @@
+---
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout title="Cablemor | EmilioVisión TV">
+    <div class="container">
+        <br>
+        <div class="caja"><h1 style="font-size: 75px;" class="trazo">EmilioVisión TV</h1></div>
+        <a href="/" class="btn btn-info" style="margin-bottom: 10px;">Volver al Inicio</a>
+        <div style="display: flex; justify-content: center; align-items: center;"><div id="player"></div></div>
+        <br>
+    </div>
+    <script is:inline>
+        var playerInstance = jwplayer("player");
+        playerInstance.setup({
+            file: "https://cablemor.andremor.dev/live/emiliovisiontv/index.m3u8",
+            type: "mpd",
+            width: 1000,
+            height: 585,
+            autostart: true,
+            cast: {},
+            sharing: {},
+        });
+    </script>
+</Layout>

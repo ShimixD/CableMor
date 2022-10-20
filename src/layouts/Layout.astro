@@ -1,0 +1,23 @@
+---
+export interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<link rel="stylesheet" href="/bootstrap.css">
+		<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.24.0/jwplayer.js" is:inline></script>
+		<script is:inline>jwplayer.key = "XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo";</script>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>

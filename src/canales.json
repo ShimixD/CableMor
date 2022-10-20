@@ -1,0 +1,44 @@
+[
+    {
+        "nombre": "TP1",
+        "descripcion": "TP1 es un canal que emite programación variada.",
+        "url": "/tp1",
+        "imagen": "tp1.png"
+    },
+    {
+        "nombre": "TP1 Radio",
+        "descripcion": "TP1 Radio es una radio de carácter informativo para todo Chile, con informaciones y música.",
+        "url": "/tp1-radio",
+        "imagen": "tp1-r.png"
+    },
+    {
+        "nombre": "EmilioVisión TV",
+        "descripcion": "EmilioVisión TV es un canal que emite programación variada.",
+        "url": "/emiliovision",
+        "imagen": "emiliovision.png"
+    },
+    {
+        "nombre": "ShimiTV",
+        "descripcion": "ShimiTV es un canal de origen peruano dedicado a transmitir series infantiles y peliculas.",
+        "url": "/shimitv",
+        "imagen": "shimitv.png"
+    },
+    {
+        "nombre": "TV30",
+        "descripcion": "TV30 es un canal con programacion variada.",
+        "url": "/tv30",
+        "imagen": "tv30.png"
+    },
+    {
+        "nombre": "Matipoto",
+        "descripcion": "Matipoto es un canal con comerciales y series shitpost.",
+        "url": "/matipoto",
+        "imagen": "matipoto.png"
+    },
+    {
+        "nombre": "TRS",
+        "descripcion": "TRS (The Random Signal) es una señal dirigida a adolescentes, con dibujos animados, Live Actions, Animes y Webseries de todo tipo.",
+        "url": "/trs",
+        "imagen": "trs.png"
+    }
+]

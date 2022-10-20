@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Canal from '../layouts/components/Canal';
+import Canales from '../canales.json';
+---
+<Layout title="Cablemor">
+	<div class="container">
+		<br>
+		<div class="caja">
+			<h1 style="font-size: 65px;">Canales de Cablemor</h1>
+		</div>
+	
+		<Canal canal={Canales} />
+		<br>
+	</div>
+</Layout>
